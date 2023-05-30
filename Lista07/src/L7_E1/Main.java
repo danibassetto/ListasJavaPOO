@@ -46,5 +46,8 @@ public class Main {
                 default: System.out.println("Opção inválida!");
             }
         }while(op!=5);
+
+        Media media = new Media();
+        media.Media(1,2);
     }
 }
